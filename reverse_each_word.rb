@@ -3,7 +3,7 @@ def reverse_each_word(sentence1)
   sentence1.split.collect {|word| word.reverse}.join(" ")
 end
 
-def reverse_each_word(sentence1)
-  sentence1 = "iH ,niaga tsuj gnikam erus s'ti !desrever"
+def reverse_each_word(sentence2)
+  sentence1 = "Hi again, just making sure it's reversed!"
   sentence1.split.collect {|word| word.reverse}.join(" ")
 end
